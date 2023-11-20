@@ -1,7 +1,7 @@
 [Info]
 Icon=https://raw.githubusercontent.com/esterOSS/updates/main/latest/co.uk.esteros.Warning.svg
 Name=Discontinuation notice
-Description=As of 20.11.2023, the old updater repo will no longer be used as the updater's source, so update your updaters to continue using the esterOS updater. To update the updater, click the update button in the updater and type the user password in a seperate the terminal window when you launched the updater to update it.
+Description=As of 20.11.2023, the old updater repo will no longer be used as the updater's source, so update your updaters to continue using the esterOS updater. To update the updater, close the updater if you ran it using the app shortcut, and then run the updater in the terminal, then click the update button in the updater and type the user password if prompted.
 Year=2023
 Month=11
 Day=20
