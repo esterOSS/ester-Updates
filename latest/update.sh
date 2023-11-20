@@ -5,5 +5,8 @@ sudo wget https://github.com/esterOSS/assets/releases/download/1.0.0/esterOSGUIu
 mv esterOSGUIupdater esteros-updater
 sudo killall -9 esteros-updater
 sudo cp esteros-updater /home/ximi-pc/assets/esteros-updater/esteros-updater/src/
+rm esteros-updater
 cd ..
 rmdir temp
+echo Updating updater done!
+./esteros-updater
