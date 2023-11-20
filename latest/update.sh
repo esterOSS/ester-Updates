@@ -7,6 +7,6 @@ sudo killall -9 esteros-updater
 sudo cp esteros-updater /home/ximi-pc/assets/esteros-updater/esteros-updater/src/
 sudo rm esteros-updater
 cd ..
-sudo rmdir temp
+sudo rmdir --ignore-fail-on-non-empty temp
 echo Updating updater done!
 ./esteros-updater
