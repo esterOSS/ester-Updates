@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-mkdir temp
+sudo mkdir temp
 cd temp
 sudo wget https://github.com/esterOSS/assets/releases/download/1.0.0/esterOSGUIupdater
-mv esterOSGUIupdater esteros-updater
+sudo mv esterOSGUIupdater esteros-updater
 sudo killall -9 esteros-updater
 sudo cp esteros-updater /home/ximi-pc/assets/esteros-updater/esteros-updater/src/
 sudo rm esteros-updater
 cd ..
-rmdir temp
+sudo rmdir temp
 echo Updating updater done!
 ./esteros-updater
