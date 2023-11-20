@@ -1,5 +1,5 @@
 [Info]
-Icon=https://raw.githubusercontent.com/esterOSS/updates/main/latest/esteros25.svg
+Icon=https://raw.githubusercontent.com/esterOSS/updates/main/latest/co.uk.esteros.Warning.svg
 Name=Discontinuation notice
 Description=As of 20.11.2023, the old updater repo will no longer be used as the updater's source, so update your updaters to continue using the esterOS updater. To update the updater, click the update button in the updater.
 Year=2023
