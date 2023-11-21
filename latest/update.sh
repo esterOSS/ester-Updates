@@ -10,4 +10,4 @@ rm esteros-updater
 cd ..
 rmdir --ignore-fail-on-non-empty temp
 echo Updating updater done!
-./esteros-updater
+esteros-updater
